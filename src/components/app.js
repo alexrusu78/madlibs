@@ -4,7 +4,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>Madlibs</h1>
+        <h1>Madlibs botega</h1>
       </div>
     );
   }
