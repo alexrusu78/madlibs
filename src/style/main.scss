@@ -37,7 +37,7 @@
         position: absolute;
         height: 110vh;
         width: 100vw;
-        background-color: #00cb79;;
+        background-color: #00cb79;
     }
 
 
@@ -67,10 +67,10 @@
 
     display: grid;
     grid-template-rows: 1fr 50px;
-
+    background-color: white;
 
     &__inputs {
-        background-color: skyblue;
+        //background-color: skyblue;
         display: grid;
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: repeat(4, 1fr);
@@ -83,19 +83,44 @@
 .input {
     display: grid;
    // grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: [number-s] 26px [nimber-e input-e] 1fr [input-e];
+    grid-template-columns: [number-s] 26px [number-e input-s] 1fr [input-e];
+
+    font-family: 'Montserrat';
+    text-align: center;
 
     &__title {
         grid-column: input-s/input-e;
+        border-top: 1px solid #B3B3B3;
+        color: #B3B3B3;
+        font-size: 12px;
+        font-weight: 300;
+
 
     }
 
     input {
         grid-column: input-s/input-e;
+        border: none;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 600;
+        // width: 190px;
+        // height: 40px;
+
+
     }
 
     &__number {
         grid-column: number-s/number-e;
+
+        background-color: #00cb79;
+        color: white;
+        font-size: 20px;
+
+        line-height: 24px;
+        padding-top: 1px;
+        
+        border-radius: 50%;
     }
 
 }
