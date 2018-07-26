@@ -12,6 +12,15 @@
 
 }
 
+.gray {
+    background: grey;
+
+}
+
+.green {
+    background: green;
+}
+
 .home {
     // position: relative;
     background-color: rgba(207, 207, 207, 0.1);
@@ -119,13 +128,28 @@
         justify-self: center;
         margin-bottom: 84px;
 
-             
+        font-family: 'Montserrat';
+
+        &__label {
+            height: 18px;
+            width: 18px;
+            line-height: 22px;
+            background: black;
+            border-radius: 50%;
+            font-size: 14px;
+
+            text-align: center;
+            color: white;
+        
+            display: inline-block;
+            margin: 4px;
+
+        } 
 
 
         p{
             line-height: 29px;
             padding: 50px 47px;
-            font-family: 'Montserrat';
             font-size: 16px;
             font-weight: 300;
         }
@@ -173,8 +197,6 @@
 
     &__number {
         grid-column: number-s/number-e;
-
-        background-color: #00cb79;
         color: white;
         font-size: 20px;
         line-height: 24px;
@@ -186,3 +208,7 @@
 
 }
 
+.card__content__label {
+
+
+}
