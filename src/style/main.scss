@@ -8,6 +8,7 @@
     font-size: 22px;
     text-align: center;
     justify-self: center;
+    transform: translateY(50%);
 
 }
 
@@ -111,6 +112,26 @@
 
     }
 
+    &__content {
+        width: 1100px;
+        height: 297px;
+        background-color: #f2f2f2;
+        justify-self: center;
+        margin-bottom: 84px;
+
+             
+
+
+        p{
+            line-height: 29px;
+            padding: 50px 47px;
+            font-family: 'Montserrat';
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+    }
+
 }
 
 .input {
@@ -164,3 +185,4 @@
     }
 
 }
+
