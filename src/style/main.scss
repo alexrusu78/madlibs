@@ -111,8 +111,9 @@
 
     &__generate {
         background-color: #00cb79;
-        transform: translateY(-300px);
         @include button;
+        transform: translateY(-300px);
+        
 
     }
 
@@ -207,10 +208,5 @@
         width: 26px;
         border-radius: 50%;
     }
-
-}
-
-.card__content__label {
-
 
 }

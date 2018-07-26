@@ -8,7 +8,7 @@ class Content extends Component {
     }
 
     componentWillReceiveProps(){
-        this count = 1;
+        this.count = 1;
     }
 
     renderLabel(data) {
